@@ -1,0 +1,488 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.header {
+  background-color: rgb(24, 31, 43);
+}
+
+.container {
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.logo {
+  width: 176px;
+  height: 52px;
+  transition: transform 0.5s ease;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.item-link {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.4s ease;
+}
+
+.item-link:hover {
+  color: skyblue;
+}
+
+.item-link:active {
+  color: blue;
+}
+
+.secure-box {
+  text-align: center;
+  justify-content: center;
+}
+
+.title {
+  height: 120px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.text {
+  display: flex;
+  height: 90px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.buttom-box {
+  width: 280px;
+  height: 56px;
+  background-color: rgb(99, 225, 217);
+  border-radius: 30px;
+  color: #ffffff;
+  transition: 0.4s ease;
+}
+
+.buttom-box:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.technology-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+  color: white;
+  background-image: url(../img/compucter.png), url(../img/secure.png), url(../img/hour.png), url(../img/file.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 260px) 0px, calc(50% + 200px) 0px, calc(50% - 260px) 300px, calc(50% + 200px) 300px;
+  margin-bottom: 0px;
+}
+
+.items {
+  max-width: 380px;
+  margin-right: 100px;
+  margin-top: 100px;
+  padding-bottom: 40px;
+  transition: transform 0.5s ease;
+}
+
+.items:hover {
+  transform: scale(1.1);
+}
+
+.technology-text {
+  font-family: "OpenSans";
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.productive-title {
+  width: 400px;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.productive-text {
+  width: 450px;
+  font-family: "OpenSans";
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.link {
+  color: rgb(98, 224, 217);
+}
+
+.info-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.info-item {
+  justify-content: center;
+  width: 360px;
+  height: 200px;
+  border-radius: 5px;
+  background-color: rgb(32, 42, 60);
+  transition: transform 0.4s ease;
+}
+
+.info-item:hover {
+  transform: scale(1.2);
+}
+
+.info-text {
+  font-family: "OpenSans";
+  font-size: 14px;
+  line-height: 21px;
+  width: 340px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.info-img {
+  padding-left: 30px;
+}
+
+.flex {
+  display: flex;
+}
+
+.email-box {
+  background-color: rgb(27, 35, 48);
+  width: 863px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.email-title {
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.email-text {
+  width: 670px;
+  font-family: "OpenSans";
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.input {
+  width: 480px;
+  height: 48px;
+  border-radius: 30px;
+}
+
+.email-buttom {
+  width: 200px;
+  height: 48px;
+  background-color: rgb(99, 225, 217);
+  border-radius: 30px;
+  transition: 0.4s ease;
+}
+
+.email-buttom:hover {
+  background-color: #ffffff;
+  color: rgb(99, 225, 217);
+}
+
+.end {
+  background-color: rgb(11, 21, 36);
+}
+
+.end-box {
+  display: flex;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.end-text {
+  width: 380px;
+}
+
+.end-list {
+  list-style-type: none;
+}
+
+.end-link {
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.3s ease;
+}
+
+.end-link:hover {
+  color: skyblue;
+}
+
+@media only screen and (max-width: 520px) {
+  .list {
+    list-style-type: none;
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .logo {
+    width: 80px;
+    height: 24px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .secure-img {
+    width: 280px;
+    height: 225px;
+  }
+
+  .title {
+    height: 108px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .text {
+    height: 84px;
+    font-family: "OpenSans";
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0px;
+    margin-right: 0px;
+  }
+}
+@media only screen and (max-width: 1029px) {
+  .technology-list {
+    background-position: calc(50% - 40px) 0px, calc(50% - 30px) 580px, calc(50% - 40px) 300px, calc(50% - 30px) 890px;
+  }
+}
+@media only screen and (max-width: 545px) {
+  .technology-text {
+    width: 350px;
+    font-family: "OpenSans";
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .technology-text {
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 1110px) {
+  .productive-img {
+    width: 550px;
+  }
+}
+@media only screen and (max-width: 1029px) {
+  .box {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .productive-title {
+    width: 300px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .productive-text {
+    width: 300px;
+    font-family: "OpenSans";
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .productive-img {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 1155px) {
+  .info-item {
+    width: 330px;
+    height: 220px;
+  }
+}
+@media only screen and (max-width: 1070px) {
+  .info-item {
+    width: 280px;
+    height: 160px;
+  }
+
+  .info-text {
+    width: 240px;
+    height: 72px;
+    font-family: "OpenSans";
+    font-size: 10px;
+    line-height: 18px;
+  }
+}
+@media only screen and (max-width: 915px) {
+  .info-list {
+    width: 500px;
+    text-align: center;
+  }
+
+  .info-item {
+    width: 330px;
+    height: 220px;
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .info-item {
+    width: 250px;
+    height: 160px;
+  }
+}
+@media only screen and (max-width: 905px) {
+  .email-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .email-text {
+    width: 450px;
+    font-family: "OpenSans";
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .email-form {
+    flex-direction: column;
+  }
+
+  .email-box {
+    text-align: center;
+    width: 480px;
+    height: 285px;
+  }
+
+  .input {
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .email-box {
+    text-align: center;
+    width: 340px;
+    height: 355px;
+  }
+
+  .email-text {
+    width: 320px;
+    font-family: "OpenSans";
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+@media only screen and (max-width: 395px) {
+  .email-text {
+    width: 260px;
+    font-family: "OpenSans";
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .email-box {
+    text-align: center;
+    width: 260px;
+    height: 355px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .end-text {
+    width: 319px;
+    height: 96px;
+    font-family: "OpenSans";
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .end-link {
+    font-family: "OpenSans";
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+@media only screen and (max-width: 855px) {
+  .end-box {
+    flex-direction: column;
+  }
+
+  .end-link {
+    font-family: "OpenSans";
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .end-text {
+    font-family: "OpenSans";
+    font-size: 16px;
+    line-height: 24px;
+    width: 339px;
+    height: 72px;
+  }
+}
+@media only screen and (max-width: 385px) {
+  .end-text {
+    width: 319px;
+    height: 96px;
+    font-family: "OpenSans";
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .end-link {
+    font-family: "OpenSans";
+    font-size: 16px;
+    line-height: 19px;
+  }
+}/*# sourceMappingURL=main.css.map */
