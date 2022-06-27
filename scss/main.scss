@@ -380,7 +380,7 @@ body {
 @media only screen and (max-width:915px){
 
   .info-list{
-    width: 500px;
+    width: 330px;
     text-align: center;
   }
 
@@ -391,10 +391,21 @@ body {
   }
 }
 
+@media only screen and (max-width:775px){
+  .info-list{
+    flex-direction: column;
+  }
+}
+
 @media only screen and (max-width:400px){
   .info-item{
     width: 250px;
     height: 160px;
+  }
+
+  .info-list{
+    width: 250px;
+    text-align: center;
   }
 }
 
